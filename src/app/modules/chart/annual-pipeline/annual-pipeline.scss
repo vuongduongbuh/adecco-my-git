@@ -1,0 +1,43 @@
+.chart-annual-pipeline {
+    position: relative;
+
+    &__first-text, &__last-text {
+        position: absolute;
+        padding: 0 15px;
+
+        span {
+            width: 160px;
+            overflow: hidden;
+            display: inline-block;
+            margin-right: 50px;
+        }
+    }
+
+    &__first-text {
+        top: 280px;
+    }
+
+    &__last-text {
+        top: 680px;
+
+        span:nth-child(5) {
+            margin-right: 100px !important;
+        }
+    }
+
+    &__pilot {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        top: 340px;
+        left: 1103px;
+    }
+
+    &__mvp {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        top: 340px;
+        left: 1308px;
+    }
+}
